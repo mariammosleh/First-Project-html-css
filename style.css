@@ -42,13 +42,13 @@ header .logo p{
     color:  rgb(179, 55, 55);
     font-weight: 550;
 }
-header ul{
+ ul{
     padding: 0px;
     padding-top:100px ;
     list-style: none;
     
 }
-header li{
+ li{
     display: inline-block;
     padding: 10px 15px 10px 15px ;
     font-size: 17px;
@@ -137,3 +137,25 @@ color: rgb(39, 24, 24);
 {
     color: rgb(236, 221, 221);
 }
+/*end main section*/
+
+/*start footer*/
+footer{
+    text-align: center;
+    background-color: #e5e0e0;
+    margin: 0px;
+    height: 140px;
+    padding-top: 20px;
+}
+
+nav ul{
+    padding-top: 20px;
+    margin: 0;
+}
+footer li{
+    border-right: 1px solid #4D5159;
+}
+footer li:last-child{
+    border: none;
+}
+ /*end footer*/
