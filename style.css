@@ -18,7 +18,7 @@ a {
 
 /* start header*/
 header {
-    height: 170px;
+    overflow: auto;
 
 }
 header .nav-left-side{
@@ -39,7 +39,7 @@ header .logo{
 header .logo p{
     font-size: 36px;
     margin: 0px;
-    color: #8C0303;
+    color:  rgb(179, 55, 55);
     font-weight: 550;
 }
 header ul{
@@ -60,3 +60,80 @@ header li:first-child{
 }
 
 /*end header*/
+
+/* start main section*/
+.main{
+    text-align: center;
+    background-image: url(images/dishes.jpg);
+    height: 440px;
+    background-size: cover;
+}
+
+.main h1, h2 {
+    margin: 0px;
+    color: rgb(179, 55, 55);
+    padding-top:20px ;
+    font-weight: 450px;
+}
+
+.main form{
+    padding-top: 30px;
+}
+
+.main form #email{
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.main form .btn{
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.main form .btn:hover {
+    background-color:#E8C772;
+}
+
+.main-content
+{
+    /*display: flex;
+    justify-content: space-around;*/
+    overflow: auto;
+    padding: 22px 0px;
+    
+}
+
+.main-content .content{
+    float: left;
+    margin-left: 22px;
+    position: relative;
+
+}
+.main-content .content a {
+    position: relative;
+}
+.main-content .content img{
+    width: 100%;
+    z-index: 1;
+}
+
+.main-content .content p {
+width: 100%;
+text-align: center;
+position: absolute;
+top: -240px   ;
+z-index: 2;
+margin: 0;
+font-size: 26px;
+color: rgb(39, 24, 24);
+
+}
+
+.main-content .content .text
+{
+    color: rgb(236, 221, 221);
+}
